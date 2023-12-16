@@ -3,8 +3,8 @@
     <IconsEdit />
     <a
       :href="
-        'https://github.com/libyzxy0/shoti/tree/main/content' +
-        ($route.path == '/docs' ? '/docs/index' : $route.path) +
+        'https://github.com/libyzxy0/docs/tree/main/content' +
+        ($route.path == '/' ? '/index' : $route.path) +
         '.md'
       "
       class="link-edit"
