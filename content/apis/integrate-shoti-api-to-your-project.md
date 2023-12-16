@@ -57,9 +57,9 @@ or install package
 
 ```js 
   const { Shoti } = require('shoti-api');
-  const shoti = new Shoti('YOUR_API_KEY'); //$shoti-xxxxx... 
+  const shoti = new Shoti();
   
-  const data = shoti.getShoti();
+  const data = shoti.getTopUsers();
   console.log(data);
 ```
 

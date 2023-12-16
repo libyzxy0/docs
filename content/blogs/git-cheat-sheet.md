@@ -64,7 +64,7 @@ Fetch and integrate the contents of the remote repository to your local reposito
  git pull https://github.com/user/repo
 ```
 
-```git checkout ``branch``
+## git checkout ``branch``
 Move from one branch to another branch.
 
 ```sh
