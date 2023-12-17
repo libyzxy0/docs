@@ -8,7 +8,7 @@ description: Read the documentation on how to integrate CSPHRecaptcha to your pr
 # CSPHRecaptcha 
 
 ## Installation 
-Add this script to your project <head> tag
+Add this script to your project head tag
 ```js
  <script src="https://recaptcha.codesync.ph/js/CSPHRecaptchaV1.js"></script>
 ```
@@ -47,8 +47,8 @@ Add this div element to your html file
     }
   } 
     
-    const data = await verify("Captcha String");
-    console.log(data)
+  const data = await verify("Captcha String");
+  console.log(data)
 ```
  This function returns this
 ```js
