@@ -769,7 +769,6 @@ https://github.com/sindresorhus/github-markdown-css
   word-break: normal;
 }
 
-//Md code pre
 .md-style .highlight pre,
 .md-style pre {
   padding: 16px;
