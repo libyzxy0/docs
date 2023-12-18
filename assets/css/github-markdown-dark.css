@@ -787,7 +787,7 @@ https://github.com/sindresorhus/github-markdown-css
   overflow: visible;
   line-height: inherit;
   word-wrap: normal;
-  background-color: #374151;
+  background-color: var(--bg-secondary);
   border: 0;
 }
 
