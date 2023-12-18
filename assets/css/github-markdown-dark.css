@@ -754,7 +754,7 @@ https://github.com/sindresorhus/github-markdown-css
   margin: 0;
   word-break: normal;
   white-space: pre;
-  background: #374151;
+  background: var(--bg-secondary);
   border: 0;
 }
 
