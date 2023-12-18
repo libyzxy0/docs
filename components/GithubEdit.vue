@@ -1,14 +1,14 @@
 <template>
-  <div class="edit-page">
-    <IconsEdit />
+  <div class="flex flex-row text-white mb-4 w-auto gfont-normal">
+    <IconsEdit class="ml-5" />
     <a
       :href="
-        'https://github.com/libyzxy0/docs/tree/main/content' +
-        ($route.path == '/' ? '/index' : $route.path) +
+        'https://github.com/libyzxy0/shoti/tree/main/content' +
+        ($route.path == '/docs' ? '/docs/index' : $route.path) +
         '.md'
       "
-      class="link-edit"
-      >Edit this page on github</a
+      class="ml-2"
+      >Edit this page on github.</a
     >
   </div>
 </template>

@@ -4,12 +4,15 @@ export default defineNuxtConfig({
     "@nuxtjs/google-fonts",
     "@nuxt/content",
   ], 
-  css: ["~/assets/css/markdown.css"],
+  css: [
+    "~/assets/css/global.css", 
+    "~/assets/css/github-markdown-dark.css"
+  ],
   content: {
     highlight: {
       theme: {
-        default: "one-dark-pro",
-        dark: "github-dark",
+        default: "material-theme-darker",
+        dark: "one-dark-pro",
         sepia: "monokai",
       },
       preload: ["js", "json", "shell"],
@@ -17,8 +20,14 @@ export default defineNuxtConfig({
   },
   googleFonts: {
     families: {
-      Nunito: [300],
+      Montserrat: [400],
       "Ubuntu Mono": [400],
+    },
+  },
+  postcss: {
+    plugins: {
+      tailwindcss: {},
+      autoprefixer: {},
     },
   },
 })
